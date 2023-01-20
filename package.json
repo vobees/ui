@@ -20,6 +20,8 @@
     "rollup": "rollup -c --bundleConfigAsCjs",
     "storybook": "start-storybook -p 6005",
     "storybook:clean": "rimraf node_modules/.cache/storybook",
+    "storybook:build": "yarn build-storybook",
+    "storybook:serve": "serve storybook-static",
     "test": "jest",
     "lint": "eslint --ext .js,.ts,.tsx src --ignore-pattern node_modules/",
     "check-types": "tsc --noEmit --pretty",
