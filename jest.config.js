@@ -7,6 +7,7 @@ module.exports = {
     '!./src/**/_*.{js,jsx,ts,tsx}',
     '!./src/**/index*.{js,jsx,ts,tsx}',
     '!./src/**/*.stories.{js,jsx,ts,tsx}',
+    '!./src/theme/*.ts',
     '!**/*.d.ts',
     '!**/node_modules/**',
   ],
