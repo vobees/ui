@@ -6,6 +6,7 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}',
     '!./src/**/_*.{js,jsx,ts,tsx}',
     '!./src/**/index*.{js,jsx,ts,tsx}',
+    '!./src/**/*.stories.{js,jsx,ts,tsx}',
     '!**/*.d.ts',
     '!**/node_modules/**',
   ],
